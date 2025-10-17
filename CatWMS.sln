@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWMS.Domain", "CatWMS.Domain\CatWMS.Domain.csproj", "{CC9F5749-53B8-42E8-8F53-539C5D1E6040}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWMS.Infrastructure", "CatWMS.Infrastructure\CatWMS.Infrastructure.csproj", "{EAFF0F25-CA1A-43CC-9419-0441E2A4E3A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CC9F5749-53B8-42E8-8F53-539C5D1E6040}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC9F5749-53B8-42E8-8F53-539C5D1E6040}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC9F5749-53B8-42E8-8F53-539C5D1E6040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFF0F25-CA1A-43CC-9419-0441E2A4E3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFF0F25-CA1A-43CC-9419-0441E2A4E3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFF0F25-CA1A-43CC-9419-0441E2A4E3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFF0F25-CA1A-43CC-9419-0441E2A4E3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
