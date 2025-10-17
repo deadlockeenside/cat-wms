@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWMS.Application", "CatWM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWMS.Tests", "CatWMS.Tests\CatWMS.Tests.csproj", "{8BB4BF15-7714-4E3C-8B9C-9A16CD86EF23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWMS.UI.Admin", "CatWMS.UI.Admin\CatWMS.UI.Admin.csproj", "{5F28F8F9-A3EC-462C-8925-10201DE9902F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8BB4BF15-7714-4E3C-8B9C-9A16CD86EF23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BB4BF15-7714-4E3C-8B9C-9A16CD86EF23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BB4BF15-7714-4E3C-8B9C-9A16CD86EF23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F28F8F9-A3EC-462C-8925-10201DE9902F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F28F8F9-A3EC-462C-8925-10201DE9902F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F28F8F9-A3EC-462C-8925-10201DE9902F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F28F8F9-A3EC-462C-8925-10201DE9902F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
