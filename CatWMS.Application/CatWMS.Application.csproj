@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CatWMS.Domain\CatWMS.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
