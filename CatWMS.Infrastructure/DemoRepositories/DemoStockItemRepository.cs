@@ -34,7 +34,7 @@ public sealed class DemoStockItemRepository : IStockItemRepository
     public async Task<IReadOnlyCollection<StockItem>> GetAllAsync(CancellationToken cancellationToken = default) 
     {
         // Network call simulation
-        await Task.Delay(300, cancellationToken);
+        await Task.Delay(10000, cancellationToken);
 
         // Cancellation check (if the user interrupted the operation)
         cancellationToken.ThrowIfCancellationRequested();

@@ -30,7 +30,7 @@ public sealed class StockItemsCatalogViewModel : INotifyPropertyChanged
 
     public StockItemsCatalogViewModel()
     {
-        _service = new StockItemService(new EmptyStockItemRepository());
+        _service = new StockItemService(new DemoStockItemRepository());
         Items.CollectionChanged += (_, __) => OnPropertyChanged(nameof(HasItems));
     }
 
