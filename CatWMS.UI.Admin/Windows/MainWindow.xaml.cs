@@ -16,7 +16,11 @@ namespace CatWMS.UI.Admin.Windows
 
         private void OnStockItemsClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hi! :)");
+            var window = new StockItemsCatalogWindow
+            {
+                Owner = this
+            };
+            window.ShowDialog();
         }
     }
 }

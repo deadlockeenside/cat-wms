@@ -79,11 +79,20 @@ namespace CatWMS.UI.Admin.Common {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на Cat WMS - Главная.
+        ///   Ищет локализованную строку, похожую на Главная.
         /// </summary>
         public static string MainWindowTitle {
             get {
                 return ResourceManager.GetString("MainWindowTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Каталог товаров.
+        /// </summary>
+        public static string StockItemsCatalogWindowTitle {
+            get {
+                return ResourceManager.GetString("StockItemsCatalogWindowTitle", resourceCulture);
             }
         }
     }

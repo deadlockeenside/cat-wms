@@ -124,6 +124,9 @@
     <value>Товары</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>Cat WMS - Главная</value>
+    <value>Главная</value>
+  </data>
+  <data name="StockItemsCatalogWindowTitle" xml:space="preserve">
+    <value>Каталог товаров</value>
   </data>
 </root>
