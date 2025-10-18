@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CatWMS.Application\CatWMS.Application.csproj" />
+    <ProjectReference Include="..\CatWMS.Infrastructure\CatWMS.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

@@ -88,6 +88,15 @@ namespace CatWMS.UI.Admin.Common {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Наименование.
+        /// </summary>
+        public static string StockItemsCatalogColumnName {
+            get {
+                return ResourceManager.GetString("StockItemsCatalogColumnName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Каталог товаров.
         /// </summary>
         public static string StockItemsCatalogWindowTitle {
