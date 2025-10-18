@@ -13,5 +13,10 @@ namespace CatWMS.UI.Admin.Windows
             InitializeComponent();
             Title = Labels.MainWindowTitle;
         }
+
+        private void OnStockItemsClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hi! :)");
+        }
     }
 }

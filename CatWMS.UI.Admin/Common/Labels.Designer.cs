@@ -70,6 +70,15 @@ namespace CatWMS.UI.Admin.Common {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Товары.
+        /// </summary>
+        public static string MainWindowMenuStockItems {
+            get {
+                return ResourceManager.GetString("MainWindowMenuStockItems", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Cat WMS - Главная.
         /// </summary>
         public static string MainWindowTitle {

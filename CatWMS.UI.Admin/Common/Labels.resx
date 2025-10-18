@@ -120,6 +120,9 @@
   <data name="MainWindowMenuCatalog" xml:space="preserve">
     <value>Каталог</value>
   </data>
+  <data name="MainWindowMenuStockItems" xml:space="preserve">
+    <value>Товары</value>
+  </data>
   <data name="MainWindowTitle" xml:space="preserve">
     <value>Cat WMS - Главная</value>
   </data>
