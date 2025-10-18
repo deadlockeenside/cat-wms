@@ -9,7 +9,7 @@ namespace CatWMS.UI.Admin.ViewModels;
 
 public sealed class StockItemsCatalogViewModel : INotifyPropertyChanged
 {
-    private readonly StockItemService _service = new(new DemoStockItemRepository());
+    private readonly StockItemService _service = new(new EmptyStockItemRepository());
 
     private bool _isLoading;
 
