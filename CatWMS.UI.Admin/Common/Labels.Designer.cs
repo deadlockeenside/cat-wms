@@ -97,6 +97,15 @@ namespace CatWMS.UI.Admin.Common {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Каталог пуст.
+        /// </summary>
+        public static string StockItemsCatalogEmpty {
+            get {
+                return ResourceManager.GetString("StockItemsCatalogEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Каталог товаров.
         /// </summary>
         public static string StockItemsCatalogWindowTitle {

@@ -9,7 +9,9 @@ namespace CatWMS.UI.Admin.ViewModels;
 
 public sealed class StockItemsCatalogViewModel : INotifyPropertyChanged
 {
-    private readonly StockItemService _service = new(new EmptyStockItemRepository());
+    private readonly StockItemService _service;
+
+    public bool HasItems => Items.Any();
 
     private bool _isLoading;
 
@@ -24,6 +26,12 @@ public sealed class StockItemsCatalogViewModel : INotifyPropertyChanged
                 OnPropertyChanged();
             }
         }
+    }
+
+    public StockItemsCatalogViewModel()
+    {
+        _service = new StockItemService(new EmptyStockItemRepository());
+        Items.CollectionChanged += (_, __) => OnPropertyChanged(nameof(HasItems));
     }
 
     public ObservableCollection<StockItemDTO> Items { get; } = new();
@@ -48,5 +56,11 @@ public sealed class StockItemsCatalogViewModel : INotifyPropertyChanged
 
     public event PropertyChangedEventHandler? PropertyChanged;
 
-    private void OnPropertyChanged([CallerMemberName] string? name = null) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+    private void OnPropertyChanged([CallerMemberName] string? name = null)
+    {
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
+        if (name == nameof(Items))
+            OnPropertyChanged(nameof(HasItems));
+    }
 }

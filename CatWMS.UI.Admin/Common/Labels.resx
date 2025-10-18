@@ -129,6 +129,9 @@
   <data name="StockItemsCatalogColumnName" xml:space="preserve">
     <value>Наименование</value>
   </data>
+  <data name="StockItemsCatalogEmpty" xml:space="preserve">
+    <value>Каталог пуст</value>
+  </data>
   <data name="StockItemsCatalogWindowTitle" xml:space="preserve">
     <value>Каталог товаров</value>
   </data>
