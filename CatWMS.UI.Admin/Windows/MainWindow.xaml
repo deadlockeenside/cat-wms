@@ -4,10 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CatWMS.UI.Admin.Windows"
+        xmlns:res="clr-namespace:CatWMS.UI.Admin.Common"
         mc:Ignorable="d"
         WindowState="Maximized"
         WindowStartupLocation="CenterScreen">
-    <Grid>
 
-    </Grid>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="{x:Static res:Labels.MainWindowMenuCatalog}" />
+        </Menu>
+
+        <Grid>
+        </Grid>
+    </DockPanel>
 </Window>
